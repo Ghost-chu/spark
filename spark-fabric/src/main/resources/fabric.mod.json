@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "spark",
+  "name": "spark",
+  "version": "${pluginVersion}",
+  "description": "${pluginDescription}",
+  "authors": [
+    "Luck",
+    "sk89q"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fabricmc.example.ExampleMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}
